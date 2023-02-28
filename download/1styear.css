@@ -1,0 +1,96 @@
+*{
+    color: rgb(255, 255, 255);
+}
+
+
+body{
+background: #3A1C71; 
+background-size: 100% 100%;
+background-position: 0px 0px;
+background-image: linear-gradient(90deg, #A100FFFF 0%, rgb(83, 155, 206) 100%);
+background: cover;
+}
+
+
+/*NAVIGATION SECTION*/
+nav{
+    margin-top: 2%; 
+    margin-left:5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    width:60px;
+    margin:auto;
+    font-size:18px;
+    border:3px solid rgb(255, 255, 255);
+    text-decoration:none ;
+    padding: 10px;
+    text-align: center;
+    border-radius:25px;
+}
+
+#home{
+    float:left;
+}
+#about{
+    float:right;
+}
+
+
+/*HEADING SECTION*/
+header{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+/*Flexbox the article content*/
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*responsive flexbox*/
+@media (max-width:768px){
+    article{
+        flex-direction:column;
+        align-items: center;
+    }  
+}
+
+article h2{
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+ul
+{
+list-style-type: none;
+padding-left: 0;
+margin:0;
+}
+
+/*GLASSMORPHISM UI*/
+.notes ,.reference,.questionBank,.questionPaper{
+    width: max-content;
+    padding:1.5%;
+    margin-bottom: 1%;
+    border: 2px solid rgba(255, 255, 255,0.1);
+    border-radius: 5%;
+    backdrop-filter: blur(30px);
+    background-color: rgb(255, 255, 255,0.2);
+}
+li{
+    margin-bottom: 0.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:800;    
+}
+a{
+    text-decoration: none;
+}

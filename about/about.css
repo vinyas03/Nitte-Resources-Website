@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+*{
+    color: rgb(255, 255, 255);
+}
+
+body{
+background: #146da0;
+background: linear-gradient(to bottom right, #0BAAB6, #D367C9);
+}
+/*NAVIGATION SECTION*/
+nav{
+    margin-top: 3%;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+a{
+    color: rgb(255, 255, 255);
+    width:60px;
+    font-size:18px;
+    border:3px solid rgb(255, 255, 255);
+    text-decoration:none ;
+    padding: 10px;
+    text-align: center;
+    border-radius:25px;
+}
+/*HEADING SECTION*/
+header{
+    text-align: center;
+  
+}
+/*ARTICLE CONTENT*/
+article{
+    color: #fff;
+    margin: 0% 8%;
+  }
+.quote{
+    font-family: 'Handlee', cursive;
+}
+.info{
+    text-align: justify;
+}
+p{
+    font-size: 25px;
+    font-family:Arial, sans-serifs;
+}
+@media (max-width:768px){
+    p{
+       font-size: 20px;
+    }  
+}
+.people{
+    font-family:Poppins;
+}
+
+
+
+
